@@ -1,57 +1,61 @@
+body{
+    /*background:linear-gradient(white, #d3d8e8);*/
+    background-color: #ebedf0;
+}
 .block{
-    display: block;
-    border:2px solid black;
+    display: flex;
     margin: auto;
     width: 1100px;
-    margin-top: 120px;
+    height: 500px;
+    margin-top: 80px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
 }
 
 .ph{
-    font-size: 65px;
-    border: 2px solid black;
-    width: 500px ;
-    height: 100px;
+    font-size: 50px;
+    width: 520px ;
+    height: 50px;
     display: block;
-    padding-bottom: none;
-    padding-top: none; 
+    margin-bottom: 30px;
+    color: #0266FB;  
+    
 }
 
 .p{
-    font-size: 30px;
-    border: 2px solid black;
+    font-size: 24px;
     display: block;
     width: 500px ;
-    height: 100px;
-    padding-top: none;
-   
+    height: 50px;
+    margin-bottom: 50px;
+    
 }
 
 .text{
-    border: 2px solid black;
-    width: 500px;
-    height: 250px;
+    width: 520px;
+    height: 400px;
     display: inline-block;
-    margin-left:55px;
-    margin-right: 80px;
-    margin-top: none;
-    
-
-    
+    margin-right: 90px;
+    margin-left: 60px;
+    margin-top: 200px;
 }
 .cardp{
     display: inline-block;
-    border : 2px solid black;
     width : 400px;
-    height: 350px;
-    margin-right: 50px;
+    height: 355px;
+    text-align: center;
     margin-top: 50px;
-    text-align: center
+
 }
 .card{
-    border : 2px solid black;
+    border:2px solid #f0f2f5;
     width : 400px;
-    height: 350px;
-    border-radius: 5px;
+    height: 355px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    box-shadow:  0 0 1em #ccd0d5;
+    
 }
 
 .input{
@@ -61,6 +65,9 @@
     height: 50px;
     margin-top: 15px;
     border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid #ccd0d5;
 }
 
 button{
@@ -68,17 +75,33 @@ button{
     margin: auto;
     width: 368px;
     height: 50px;
+    font-size: 18px;
     margin-top: 15px;
     border-radius: 5px;
+    background-color: #0266FB;
+    border: none;
+    color: #fff;
 }
 
-.lien{
-    text-align: right;
-    font-size: 15px;
-    padding: 15px;
+a:link, a:visited{
+    text-decoration: none;
+    color: #0266FB;
+    border-bottom: 1px solid #ccd0d5;
+    width: 324px;
+    padding: 15px 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+a:hover, a:active{
+  text-decoration: underline;
+  
 }
 
 .creat{
     width: 200px;
+    display:block;
+    margin-top: 25px;
+    background-color: #42b72a;
 
 }
